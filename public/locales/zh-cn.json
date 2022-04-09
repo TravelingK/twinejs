@@ -47,7 +47,8 @@
         "storyFormat": "故事格式",
         "tag": "标签",
         "test": "测试",
-        "undo": "撤销"
+        "undo": "撤销",
+        "create": "创建"
     },
     "components": {
         "addTagButton": {
@@ -326,7 +327,12 @@
                 },
                 "showAllStories": "显示所有故事",
                 "showTags": "显示标签",
-                "storyTags": "故事标签"
+                "storyTags": "故事标签",
+                "createStoryButton": {
+                    "prompt": "您故事的名称是？您之后可以更改该名称。",
+                    "nameConflict": "此名称已被另一个故事使用。",
+                    "emptyName": "请输入名称。"
+                }
             },
             "titleCount_plural": "{{count}} 个故事",
             "library": "库",
